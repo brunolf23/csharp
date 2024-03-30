@@ -1,6 +1,6 @@
 <h1 align="center">CSharp</h1>
 
-<h2>Estudos e exercícios em C#</h1>
+Estudos e exercícios em C#
 
 <ul>
  <li>Fundamentos</li>
