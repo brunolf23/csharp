@@ -25,3 +25,9 @@ double PREFIXO = 21;
 string PREFIXO_22 = "21";
 
 Console.ReadKey();
+
+
+int a = 10;
+int b = 9;
+var x = a + b;
+Console.WriteLine($"x = {x}");
