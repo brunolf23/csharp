@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados3", "TiposDeDad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados4", "TiposDeDados4\TiposDeDados4.csproj", "{200827E0-1D0A-4B06-926E-611B18B37107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipoDateTime1", "TipoDateTime1\TipoDateTime1.csproj", "{7DCB7547-8957-429E-8F2A-6ECDDF3B7B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoDateTime1", "TipoDateTime1\TipoDateTime1.csproj", "{7DCB7547-8957-429E-8F2A-6ECDDF3B7B32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
