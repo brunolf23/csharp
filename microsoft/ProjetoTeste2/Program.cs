@@ -25,13 +25,13 @@ foreach (string orderID in orderIDs)
         Console.WriteLine(orderID);
     }
 }
-
 */
 
 int[] inventario = [10, 150, 400, 350, 200];
 
 int soma = 0;
 int bin = 0;
+
 foreach (int produtos in inventario)
 {
     soma += produtos;
