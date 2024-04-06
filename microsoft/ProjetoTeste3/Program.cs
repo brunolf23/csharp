@@ -29,6 +29,9 @@ else if (idade >= 16)
     // Se a váriavel idade não for maior ou igual à 18 mas for maior ou igual a 16 esse trecho de código será executado
     Console.WriteLine("Você não é maior de idade, mas já pode votar!");
 }
+
+
+
 else
 {
     // Se a váriavel idade não for maior ou igual à 18 esse trecho de código será executado
