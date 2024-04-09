@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Calculadora
+
+using System;
 
 namespace Calculator
 {
