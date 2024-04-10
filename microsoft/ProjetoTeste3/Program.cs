@@ -1,6 +1,5 @@
 ﻿// Calculadora
 
-
 using System;
 
 namespace Calculator
@@ -52,10 +51,7 @@ namespace Calculator
             Console.WriteLine("");
 
             float resultado = v1 + v2;
-            // Console.WriteLine("O resultado da soma é " + resultado);
             Console.WriteLine($"O resultado da soma é {resultado}");
-            // Console.WriteLine($"O resultado da soma é {v1 + v2}");
-            // Console.WriteLine("O resultado da soma é " + (v1 + v2));
             Console.ReadKey();
             Menu();
         }
