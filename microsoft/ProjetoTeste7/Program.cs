@@ -33,3 +33,24 @@ namespace MeuApp
             Console.WriteLine(texto.CompareTo("")); // Retorna 0
             Console.WriteLine(texto.CompareTo(null)); // Retorna 0
         }
+
+        static void Aula2()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.Contains("teste")); // true
+            Console.WriteLine(texto.Contains("Teste")); // false
+            Console.WriteLine(texto.Contains("Teste", StringComparison.OrdinalIgnoreCase)); // true
+            // Console.WriteLine(texto.Contains(null)); // ERRO
+        }
+
+        static void Aula3()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.StartsWith("Este")); // true
+            Console.WriteLine(texto.StartsWith("este")); // false
+            Console.WriteLine(texto.StartsWith("este", StringComparison.OrdinalIgnoreCase)); // true
+
+            Console.WriteLine(texto.EndsWith("Teste")); // false
+            Console.WriteLine(texto.EndsWith("teste")); // true
+            Console.WriteLine(texto.EndsWith("teste", StringComparison.OrdinalIgnoreCase)); // true
+        }
