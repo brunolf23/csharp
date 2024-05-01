@@ -54,3 +54,18 @@ namespace MeuApp
             Console.WriteLine(texto.EndsWith("teste")); // true
             Console.WriteLine(texto.EndsWith("teste", StringComparison.OrdinalIgnoreCase)); // true
         }
+
+        static void Aula4()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.Equals("Este é um texto de teste")); // true
+            Console.WriteLine(texto.Equals("este é um texto de teste")); // false
+            Console.WriteLine(texto.Equals("este é um texto de teste", StringComparison.OrdinalIgnoreCase)); // true
+        }
+
+        static void Aula5()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.IndexOf("é"));
+            Console.WriteLine(texto.LastIndexOf("s"));
+        }
