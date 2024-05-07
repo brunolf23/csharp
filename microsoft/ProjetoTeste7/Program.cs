@@ -69,3 +69,110 @@ namespace MeuApp
             Console.WriteLine(texto.IndexOf("é"));
             Console.WriteLine(texto.LastIndexOf("s"));
         }
+
+        static void Aula6()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.ToLower());
+            Console.WriteLine(texto.ToUpper());
+        }
+
+        static void Aula7()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.Insert(5, "AQUI "));
+        }
+
+        static void Aula8()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.Length);
+        }
+
+        static void Aula9()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.Remove(0, 5));
+        }
+
+        static void Aula10()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.Replace("Este", "Isto"));
+            Console.WriteLine(texto.Replace("texto", "exemplo"));
+        }
+
+        static void Aula11()
+        {
+            var texto = "Este é um texto, de teste";
+            var divisao = texto.Split(',');
+            Console.WriteLine(divisao[0]);
+            Console.WriteLine(divisao[1]);
+            // Console.WriteLine(divisao[2]); // ERRO
+        }
+
+        static void Aula12()
+        {
+            var texto = "Este é um texto de teste";
+            Console.WriteLine(texto.Substring(0, 5));
+            Console.WriteLine(texto.Substring(texto.LastIndexOf(" ") + 1, 5));
+        }
+
+        static void Aula13()
+        {
+            var texto = "Este é           um texto de teste";
+            Console.WriteLine(texto.Trim());
+
+            texto = "       Este é um texto de teste             ";
+            Console.WriteLine(texto.Trim());
+        }
+
+        static void Aula14()
+        {
+            var texto = new StringBuilder();
+            texto.Append("Este");
+            texto.Append("é");
+            texto.Append("um");
+            texto.Append(Environment.NewLine);
+            texto.Append("texto");
+            Console.WriteLine(texto.ToString());
+        }
+
+        static void Aula15()
+        {
+            // https://regexr.com/
+            var regex = new Regex(@"([0-9])\w+");
+            Console.WriteLine(regex.IsMatch("Este é um texto de teste"));
+            Console.WriteLine(regex.IsMatch("Este 25 um texto de teste"));
+        }
+
+        static void Aula16()
+        {
+            Console.WriteLine(
+                string.Compare(
+                    "texto",
+                    "texto"));
+
+            Console.WriteLine(
+                string.Compare(
+                    "Isto é um texto",
+                    "Isto e um texto",
+                    CultureInfo.CurrentCulture,
+                    CompareOptions.IgnoreNonSpace));
+
+            Console.WriteLine(
+                string.Compare(
+                    "Isto é um texto",
+                    "isto e um texto",
+                    CultureInfo.CurrentCulture,
+                    CompareOptions.IgnoreNonSpace));
+
+            Console.WriteLine(
+                string.Compare(
+                    "Isto é um texto",
+                    "isto e um texto",
+                    CultureInfo.CurrentCulture,
+                    CompareOptions.IgnoreSymbols));
+        }
+    }
+}
