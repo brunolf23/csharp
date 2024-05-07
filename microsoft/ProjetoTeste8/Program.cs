@@ -21,7 +21,6 @@ Console.WriteLine(1 <= 1);
 string pan = "A grande raposa branca pula pra cima do cachorro preguiçoso.";
 Console.WriteLine(pan.Contains("raposa"));
 Console.WriteLine(!pan.Contains("cachorro"));
-*/
 
 int a = 7;
 int b = 6;
@@ -31,3 +30,7 @@ Console.WriteLine(a != b); // O operador de desigualdade != inclui um caractere 
 string s1 = "Olá";
 string s2 = "Olá";
 Console.WriteLine(s1 != s2);
+*/
+
+int saleAmount = 1001;
+Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
