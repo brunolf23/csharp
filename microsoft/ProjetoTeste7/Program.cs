@@ -40,7 +40,7 @@ namespace MeuApp
             Console.WriteLine(texto.Contains("teste")); // true
             Console.WriteLine(texto.Contains("Teste")); // false
             Console.WriteLine(texto.Contains("Teste", StringComparison.OrdinalIgnoreCase)); // true
-            // Console.WriteLine(texto.Contains(null)); // ERRO
+            // ERRO
         }
 
         static void Aula3()
@@ -108,7 +108,7 @@ namespace MeuApp
             var divisao = texto.Split(',');
             Console.WriteLine(divisao[0]);
             Console.WriteLine(divisao[1]);
-            // Console.WriteLine(divisao[2]); // ERRO
+            // ERRO
         }
 
         static void Aula12()
