@@ -13,11 +13,24 @@ Console.Write(nome);
 Console.Write(" tem ");
 Console.Write(idade);
 Console.Write(" anos.");
-Console.WriteLine("=========================");
 
 // Usar a concatenação usando o operador +
 
+Console.WriteLine();
+Console.WriteLine("======== Concatenação ========");
 Console.WriteLine(nome + " tem " + idade + " anos.");
 Console.Write(nome + " tem " + idade + " anos.");
+
+// Usar a interpolação de strings : $ => a interpolação {}
+
+Console.WriteLine();
+Console.WriteLine("======== Interpolação ========");
+Console.WriteLine($"{nome} tem {idade} anos.");
+
+// Usar place holders : usa {} com numeração com inicio em zero
+
+Console.WriteLine();
+Console.WriteLine("======== Place holders ========");
+Console.WriteLine("{0} tem {1} anos.", nome, idade);
 
 Console.ReadLine();
