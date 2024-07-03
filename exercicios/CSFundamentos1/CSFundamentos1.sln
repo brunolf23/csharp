@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados", "TiposDeDados1\TiposDeDados.csproj", "{A43572F7-54C1-472A-9EFE-890378EC5CE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados1", "TiposDeDados1\TiposDeDados1.csproj", "{A43572F7-54C1-472A-9EFE-890378EC5CE0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados2", "TiposDeDados2\TiposDeDados2.csproj", "{B477579B-D64B-4E35-BEEB-627A5CF7930A}"
 EndProject
@@ -11,13 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados3", "TiposDeDad
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposDeDados4", "TiposDeDados4\TiposDeDados4.csproj", "{200827E0-1D0A-4B06-926E-611B18B37107}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoDateTime", "TipoDateTime1\TipoDateTime.csproj", "{7DCB7547-8957-429E-8F2A-6ECDDF3B7B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TipoDateTime1", "TipoDateTime1\TipoDateTime1.csproj", "{7DCB7547-8957-429E-8F2A-6ECDDF3B7B32}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identificadores", "Identificadores\Identificadores.csproj", "{542757F3-9FD7-4570-B1C0-FB4F8444C66A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaidaDados", "SaidaDados\SaidaDados.csproj", "{CA5F8A79-FFCE-437D-9346-3F1DF7BC87F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaidaDados2", "SaidaDados2\SaidaDados2.csproj", "{BAC351D8-6CA1-473D-A8A9-8D177D88F217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoTipos1", "ConversaoTipos1\ConversaoTipos1.csproj", "{3C8B8B83-0CB8-4BC9-8866-11D5ABD11F06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{BAC351D8-6CA1-473D-A8A9-8D177D88F217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAC351D8-6CA1-473D-A8A9-8D177D88F217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAC351D8-6CA1-473D-A8A9-8D177D88F217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8B8B83-0CB8-4BC9-8866-11D5ABD11F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8B8B83-0CB8-4BC9-8866-11D5ABD11F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8B8B83-0CB8-4BC9-8866-11D5ABD11F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8B8B83-0CB8-4BC9-8866-11D5ABD11F06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
