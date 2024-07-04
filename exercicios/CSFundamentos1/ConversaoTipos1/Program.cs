@@ -17,11 +17,21 @@ Console.WriteLine(numeroFloat);
 Console.WriteLine(numeroDouble);
 Console.WriteLine(numeroDecimal);
 
-Console.ReadLine();
-
-*/
 
 double varDouble = 12.456; // 8 bytes
 int varInt = (int)varDouble; // 4 bytes
 
 Console.WriteLine(varInt);
+
+Console.ReadLine();
+
+*/
+
+int valorInt = 10;
+double valorDouble = 5.45;
+bool valorBoolean = true;
+
+Console.WriteLine(Convert.ToString(valorInt));
+Console.WriteLine(Convert.ToDouble(valorInt));
+Console.WriteLine(Convert.ToInt32(valorDouble));
+Console.WriteLine(Convert.ToString(valorBoolean));
