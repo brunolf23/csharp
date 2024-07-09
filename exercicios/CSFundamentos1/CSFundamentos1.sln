@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InferenciaTipos", "Inferenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAtribuicao", "OperadoresAtribuicao\OperadoresAtribuicao.csproj", "{D1AB6F0D-A0C6-4954-80C2-7AC57F9A3409}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constantes", "Constantes\Constantes.csproj", "{D63E144F-5F91-4640-9D22-EEC15D6F99FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{D1AB6F0D-A0C6-4954-80C2-7AC57F9A3409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1AB6F0D-A0C6-4954-80C2-7AC57F9A3409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1AB6F0D-A0C6-4954-80C2-7AC57F9A3409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63E144F-5F91-4640-9D22-EEC15D6F99FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63E144F-5F91-4640-9D22-EEC15D6F99FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63E144F-5F91-4640-9D22-EEC15D6F99FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63E144F-5F91-4640-9D22-EEC15D6F99FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
