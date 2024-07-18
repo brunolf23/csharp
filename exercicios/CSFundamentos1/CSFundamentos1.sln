@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperadoresLogicos", "Operad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecedenciaOperadores", "PrecedenciaOperadores\PrecedenciaOperadores.csproj", "{3039C97F-D9EB-4B06-9B5D-9A0B75E5CFEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "NullableTypes\NullableTypes.csproj", "{05FB3063-2F7E-4348-A20B-21D7E3B7DBE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{3039C97F-D9EB-4B06-9B5D-9A0B75E5CFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3039C97F-D9EB-4B06-9B5D-9A0B75E5CFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3039C97F-D9EB-4B06-9B5D-9A0B75E5CFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FB3063-2F7E-4348-A20B-21D7E3B7DBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FB3063-2F7E-4348-A20B-21D7E3B7DBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FB3063-2F7E-4348-A20B-21D7E3B7DBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FB3063-2F7E-4348-A20B-21D7E3B7DBE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
