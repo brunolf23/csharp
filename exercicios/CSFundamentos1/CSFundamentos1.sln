@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableTypes", "NullableTy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadorTernario", "OperadorTernario\OperadorTernario.csproj", "{B830A4FE-4815-49D8-91FF-BAA7750C03FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe01", "Exe01\Exe01.csproj", "{43345575-4503-40B4-9085-5A0AFB84A066}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{B830A4FE-4815-49D8-91FF-BAA7750C03FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B830A4FE-4815-49D8-91FF-BAA7750C03FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B830A4FE-4815-49D8-91FF-BAA7750C03FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43345575-4503-40B4-9085-5A0AFB84A066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43345575-4503-40B4-9085-5A0AFB84A066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43345575-4503-40B4-9085-5A0AFB84A066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43345575-4503-40B4-9085-5A0AFB84A066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
