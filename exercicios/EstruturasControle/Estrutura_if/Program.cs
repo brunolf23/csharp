@@ -25,10 +25,14 @@ if (x > y)
 else
 {
     if (x < y)
+    { 
     Console.WriteLine("x é menor que y");
+    }
 
     else
+    {
     Console.WriteLine("x é igual a y");
+    }
 }
 
 Console.WriteLine("Fim do processamento...");
