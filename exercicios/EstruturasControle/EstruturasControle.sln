@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estrutura_if", "Estrutura_i
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estruturas_if_else", "Estruturas_if_else\Estruturas_if_else.csproj", "{D9F721E2-A0A2-422F-A021-D14A19E10481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrutura_if_else_if", "Estrutura_if_else_if\Estrutura_if_else_if.csproj", "{BB611FEF-9543-4CEA-B45A-1B13E20EC6D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estrutura_if_else_if", "Estrutura_if_else_if\Estrutura_if_else_if.csproj", "{BB611FEF-9543-4CEA-B45A-1B13E20EC6D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrutura_switch", "Instrucao_switch\Estrutura_switch.csproj", "{38BE49A4-E047-44B7-98D8-6C774B6076A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estrutura_switch", "Instrucao_switch\Estrutura_switch.csproj", "{38BE49A4-E047-44B7-98D8-6C774B6076A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estrutura_switch2", "Estrutura_switch2\Estrutura_switch2.csproj", "{ED61E392-9E45-4C88-85DA-7D7DB5434B05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{38BE49A4-E047-44B7-98D8-6C774B6076A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38BE49A4-E047-44B7-98D8-6C774B6076A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38BE49A4-E047-44B7-98D8-6C774B6076A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED61E392-9E45-4C88-85DA-7D7DB5434B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED61E392-9E45-4C88-85DA-7D7DB5434B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED61E392-9E45-4C88-85DA-7D7DB5434B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED61E392-9E45-4C88-85DA-7D7DB5434B05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
