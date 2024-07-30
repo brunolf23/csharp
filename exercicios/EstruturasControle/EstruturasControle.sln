@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estrutura_switch", "Instruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estrutura_switch2", "Estrutura_switch2\Estrutura_switch2.csproj", "{ED61E392-9E45-4C88-85DA-7D7DB5434B05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repeticao_while", "Repeticao_while\Repeticao_while.csproj", "{9633D91B-1462-458A-86F4-A7C160767DBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repeticao_while", "Repeticao_while\Repeticao_while.csproj", "{9633D91B-1462-458A-86F4-A7C160767DBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repeticao_while2", "Repeticao_while2\Repeticao_while2.csproj", "{87458B37-D6EA-4FDF-BFA3-532A3F1A248C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repeticao_while2", "Repeticao_while2\Repeticao_while2.csproj", "{87458B37-D6EA-4FDF-BFA3-532A3F1A248C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repeticao_while3", "Repeticao_while3\Repeticao_while3.csproj", "{719E09FC-74E7-4E2F-9FA2-991457AB27B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repeticao_for", "Repeticao_for\Repeticao_for.csproj", "{C2EF5926-57DD-46B1-9560-FE3C4E2E7167}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{87458B37-D6EA-4FDF-BFA3-532A3F1A248C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87458B37-D6EA-4FDF-BFA3-532A3F1A248C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87458B37-D6EA-4FDF-BFA3-532A3F1A248C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719E09FC-74E7-4E2F-9FA2-991457AB27B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719E09FC-74E7-4E2F-9FA2-991457AB27B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719E09FC-74E7-4E2F-9FA2-991457AB27B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719E09FC-74E7-4E2F-9FA2-991457AB27B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2EF5926-57DD-46B1-9560-FE3C4E2E7167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EF5926-57DD-46B1-9560-FE3C4E2E7167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EF5926-57DD-46B1-9560-FE3C4E2E7167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EF5926-57DD-46B1-9560-FE3C4E2E7167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
